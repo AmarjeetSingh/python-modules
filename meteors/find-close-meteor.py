@@ -17,7 +17,7 @@ def calc_dist(lat1, lon1, lat2, lon2):
 def get_dist(meteor):
     return meteor.get('distance', math.inf)
     
-if __name__ == '__main__':       # useful if you want to run your program as scripts
+if __name__ == '__main__':       # useful when you want to use your program for importing as a python module
     my_loc = (29.424122, -98.493628)
 
     meteor_resp = requests.get('https://data.nasa.gov/resource/y77d-th95.json')
