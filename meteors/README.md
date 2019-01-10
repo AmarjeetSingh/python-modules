@@ -5,7 +5,7 @@ A program that uses Python and NASA data to find meteor landing sites
 
 This program requires Python 3 and the requests package.
 
-First, intall pipenv. Then :
+First, install pipenv. Then :
 
 ```
 pipenv install
